@@ -30,10 +30,10 @@ Slash & Splash is a webcam-based arcade game where you slice flying fruit using 
 
 | Component | Library |
 |---|---|
-| Hand tracking & gesture recognition | [MediaPipe](https://developers.google.com/mediapipe) |
-| Webcam input & image processing | [OpenCV](https://opencv.org/) |
-| Game loop, rendering, sound | [Pygame](https://www.pygame.org/) |
-| Numerical operations | [NumPy](https://numpy.org/) |
+| Hand tracking & gesture recognition | MediaPipe |
+| Webcam input & image processing | OpenCV |
+| Game loop, rendering, sound | Pygame |
+| Numerical operations | NumPy |
 
 ---
 
@@ -62,9 +62,9 @@ Slash & Splash is a webcam-based arcade game where you slice flying fruit using 
 git clone https://github.com/shravya33/slash-and-splash.git
 cd slash-and-splash
 
-# (Recommended) Create a virtual environment
+# Create a virtual environment (Recommended) 
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
